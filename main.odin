@@ -14,6 +14,10 @@ a_proc :: proc(arg1 : int){
 	
 }
 
+other_proc :: proc(){
+	fmt.println("other function call")
+}
+
 
 main :: proc(){
 	fmt.println("Odin is working")
@@ -30,5 +34,6 @@ main :: proc(){
 	def_fun()
 
 	a_proc(21)
+	other_proc()
 
 }//main
